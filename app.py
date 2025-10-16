@@ -15,4 +15,4 @@ if st.button("Sorgula") and sehir:
         st.write("Durum:", veri["weather"][0]["description"])
         st.write("Nem:", veri["main"]["humidity"])
     else:
-        st.error("Şehir bulunamadı veya API anahtarı hatalı.")
+        st.error("Şehir bulunamadı veya API anahtarı hatalı.") 
